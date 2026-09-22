@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environment
+.env
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+*.wal
+
+# Raw and generated data
+data/raw/*
+data/interim/*
+data/processed/*
+data/powerbi/*
+
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/powerbi/.gitkeep
+
+# Generated outputs
+outputs/figures/*
+outputs/tables/*
+outputs/executive_summary/*
+
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/executive_summary/.gitkeep
+
+# Power BI temp
+**/.pbi/
+*.pbix.autosave
+
+# OS
+.DS_Store
+Thumbs.db
